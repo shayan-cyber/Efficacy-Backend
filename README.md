@@ -10,8 +10,8 @@
 
 #### Get all events
 
-```http
-  GET /api/all-events/
+```https
+  POST /api/all-events/
 ```
 
 | Parameter | Type     | Description                |
@@ -20,8 +20,8 @@
 
 #### Add event
 
-```http
-  GET /api/add-event/
+```https
+  POST /api/add-event/
 ```
 
 | Parameter | Type     | Description                       |
@@ -57,8 +57,8 @@
 
 #### Add club
 
-```http
-  GET /api/add-club/
+```https
+  POST /api/add-club/
 ```
 
 | Parameter | Type     | Description                       |
@@ -92,15 +92,15 @@
 
 #### Get all clubs
 
-```http
-  GET /api/all-clubs/
+```https
+  POST /api/all-clubs/
 ```
 
 
 #### Edit event
 
-```http
-  GET /api/edit-event/<eventID>
+```https
+  POST /api/edit-event/<eventID>
 ```
 
 | Parameter | Type     | Description                       |
@@ -135,8 +135,8 @@
 
 #### Edit club
 
-```http
-  GET /api/edit-club/<clubID>
+```https
+  POST /api/edit-club/<clubID>
 ```
 
 | Parameter | Type     | Description                       |
@@ -171,13 +171,13 @@
 
 #### Get club details
 
-```http
-  GET /api/club-details/<clubID>
+```https
+  POST /api/club-details/<clubID>
 ```
 
 
 #### Get event details
 
-```http
-  GET /api/event-details/<eventID>
+```https
+  POST /api/event-details/<eventID>
 ```
