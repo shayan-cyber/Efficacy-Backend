@@ -3,7 +3,7 @@
 
 #### Get API details
 
-```http
+```https
   GET /api/api-details/
 ```
 
